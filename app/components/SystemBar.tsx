@@ -76,6 +76,15 @@ export default function SystemBar({ time, onSave, onOpenWindow, openWindows, cla
           <Send className="w-4 h-4 mr-1" />
           Telegram
         </a>
+        <a
+          href="https://four.meme/token/0x20c399e858200c62fa91d42ebe35150c78afcce3"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-[#00ff00] px-2 py-1 hover:bg-[#00ff00]/10 text-xs flex items-center"
+        >
+          <ShoppingCart className="w-4 h-4 mr-1" />
+          BUY
+        </a>
         <div className="border border-[#00ff00] px-2 py-1 text-xs whitespace-nowrap">
           {time.toLocaleTimeString("en-US", {
             hour12: false,
