@@ -60,7 +60,7 @@ export default function SystemBar({ time, onSave, onOpenWindow, openWindows, cla
         <div className="border border-[#00ff00] px-2 py-1 text-xs whitespace-nowrap">AI ▂▃▄▅▆▇</div>
         <div className="border border-[#00ff00] px-2 py-1 text-xs whitespace-nowrap">System ▂▃▄▅▆▇</div>
         <a
-          href="https://x.com"
+          href="https://x.com/AI_Web_Gen_BSC"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-[#00ff00] px-2 py-1 hover:bg-[#00ff00]/10 text-xs flex items-center"
@@ -68,7 +68,7 @@ export default function SystemBar({ time, onSave, onOpenWindow, openWindows, cla
           <Twitter className="w-4 h-4 mr-1" />X
         </a>
         <a
-          href="https://telegram.org"
+          href="https://t.me/aiwebgeneratorbsc"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-[#00ff00] px-2 py-1 hover:bg-[#00ff00]/10 text-xs flex items-center"
