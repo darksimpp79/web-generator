@@ -1,5 +1,5 @@
 import type React from "react"
-import { Twitter, Send } from "lucide-react"
+import { Twitter, Send, ShoppingCart } from "lucide-react"
 
 type WindowType = string
 interface Window {
@@ -60,7 +60,7 @@ export default function SystemBar({ time, onSave, onOpenWindow, openWindows, cla
         <div className="border border-[#00ff00] px-2 py-1 text-xs whitespace-nowrap">AI ▂▃▄▅▆▇</div>
         <div className="border border-[#00ff00] px-2 py-1 text-xs whitespace-nowrap">System ▂▃▄▅▆▇</div>
         <a
-          href="https://x.com/AI_Web_Gen_BSC"
+          href="https://x.com"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-[#00ff00] px-2 py-1 hover:bg-[#00ff00]/10 text-xs flex items-center"
@@ -68,7 +68,7 @@ export default function SystemBar({ time, onSave, onOpenWindow, openWindows, cla
           <Twitter className="w-4 h-4 mr-1" />X
         </a>
         <a
-          href="https://t.me/aiwebgeneratorbsc"
+          href="https://telegram.org"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-[#00ff00] px-2 py-1 hover:bg-[#00ff00]/10 text-xs flex items-center"
@@ -77,7 +77,7 @@ export default function SystemBar({ time, onSave, onOpenWindow, openWindows, cla
           Telegram
         </a>
         <a
-          href="https://four.meme/token/0x20c399e858200c62fa91d42ebe35150c78afcce3"
+          href="https://four.meme"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-[#00ff00] px-2 py-1 hover:bg-[#00ff00]/10 text-xs flex items-center"
